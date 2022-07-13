@@ -43,7 +43,12 @@
 
         <!--print button-->
         <a href="javascript:;" class="r5 button_print btn_green">Print</a>
-        <button id="minimized-chat" onclick="alert()">Chat Us</button>
+        <script>
+        function myFunction() {
+          document.getElementById("minimized-chat").click();
+        }
+        </script>
+        <button id="minimized-chat" onclick="myFunction()">Chat Us</button>
         <div class="main">
             <div class="content">
 
